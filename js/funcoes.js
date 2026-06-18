@@ -59,3 +59,7 @@ const intervalo = setInterval(()=>{
         clearInterval(intervalo)
     }
 }, 2000)
+
+const objPessoa = {nome, 'Maria'}
+
+console.log(mensagemTxtnum(objPessoa), ', parabéns pelo seu dia!!')
