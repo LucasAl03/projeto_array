@@ -1,3 +1,6 @@
+//se o arquivo estiver em uma pasta diferente deve referencia-la, exemplo: js/mensagem.js
+import {mensagemTxtnum} from 'mensagem.js'
+
 function exibirMensagem(){
     console.log('Olá')
 }
