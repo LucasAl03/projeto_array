@@ -1,5 +1,5 @@
-//se o arquivo estiver em uma pasta diferente deve referencia-la, exemplo: js/mensagem.js
-import {mensagemTxtnum} from 'mensagem.js'
+//se o arquivo estiver em uma pasta diferente deve referencia-la, exemplo: js/mensagem.js, se na mesma pasta ./mensagem.js
+import {mensagemTxtNum} from './mensagem.js'
 
 function exibirMensagem(){
     console.log('Olá')
@@ -60,6 +60,6 @@ const intervalo = setInterval(()=>{
     }
 }, 2000)
 
-const objPessoa = {nome, 'Maria'}
+const objPessoa = {nome: 'Maria'}
 
-console.log(mensagemTxtnum(objPessoa), ', parabéns pelo seu dia!!')
+console.log(mensagemTxtNum(objPessoa), ', parabéns pelo seu dia!!')

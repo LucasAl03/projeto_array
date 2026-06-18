@@ -1,11 +1,11 @@
 //padrão kenel case a partir da segunda palavra inicia letra maiuscula
-const mensagemTxtnum = (obj)=>{
+const mensagemTxtNum = (obj) => {
     return `${obj.nome}`
 }
 
-export {mensagemTxtnum}
+export {mensagemTxtNum}
 
-//se classe inicia maiuscula demais minuscula
+//se classe inicia maiuscula demais letra inicial minuscula
 
 
 //
